@@ -1,27 +1,35 @@
 * {
-    margin:0;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
 
 body {
     background-color: #e6e6e6;
 }
 
-div {
-}
-
 
 .wide {
-
-    padding-top: 100px;
-
+    background-color: white;
+    position:relative;
+   top: 100px;
 
 }
 
-.text-center {
+.text-center{height: 75px;}
 
-    background-color: white;
-    height: 300px;
+
+
+
+
+
+.logo>img{
+    position: absolute;
+    width: 105px;
+    height: 105px;
+    top: -15px;
+    left: 50%;
+    margin-left: -52.5px;
+
+
 }
