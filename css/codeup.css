@@ -65,6 +65,14 @@ nav ul>li{
     height: 105px;
 }
 
+.circle-sm {
+
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+}
+
 .circle-red {
     background-color: #e6563b;
 }
@@ -92,6 +100,30 @@ p .sel-work {
     text-align: center;
 }
 
+nav.navbar {
+    background-color: #e6e6e6;
+    margin-top: 10px;
+
+}
+
+
+
+
+ul .nav-links {
+    display: inline;
+}
+
+.sub-head {
+    font-size: small;
+    color: red;
+    float: left;
+}
+
+.navbar li {
+    margin-top: 3px;
+
+
+}
 /*.col-8 {*/
 /*text-align: center;*/
 /*}*/
