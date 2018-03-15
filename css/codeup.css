@@ -20,6 +20,8 @@ nav {
 
 /**/
 
+h1{font-weight: bold}
+
 .wide {
     display: inline-block;
 
@@ -36,6 +38,7 @@ nav {
     margin: 0 auto;
     display: block;
 }
+
 .nav-text {
     float: none;
     font-size: 3em;
@@ -44,11 +47,11 @@ nav {
 nav ul {
     list-style: none;
     float: right;
-    padding:0;
+    padding: 0;
 
 }
 
-nav ul>li{
+nav ul > li {
     display: inline-block;
     padding: 1em;
 
@@ -91,39 +94,43 @@ nav ul>li{
 }
 
 .circle h3 {
-    color: #535353;
+    color: ivory;
     margin-top: 30px;
-}
+    font-size: large;
 
+}
 
 p .sel-work {
     text-align: center;
 }
 
 nav.navbar {
+    width: 100%;
     background-color: #e6e6e6;
     margin-top: 10px;
 
 }
 
-
-
-
 ul .nav-links {
+    width: 99%;
     display: inline;
 }
 
 .sub-head {
     font-size: small;
-    color: red;
+    color: black;
     float: left;
 }
 
 .navbar li {
     margin-top: 3px;
 
-
 }
+
+.col-sm-12 {
+    width: 99%;
+}
+
 /*.col-8 {*/
 /*text-align: center;*/
 /*}*/
@@ -134,12 +141,10 @@ ul .nav-links {
     /*text-align: center;*/
     /*margin-left: auto;*/
     /*margin-right: auto;*/
-
     /*}*/
-
     .main-logo {
 
-        float:left;
+        float: left;
     }
 
     .codeup-logo, .nav-text {
@@ -160,7 +165,5 @@ ul .nav-links {
         height: 100px;
 
     }
-
-
 
 }
